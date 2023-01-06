@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Lead Savr",
+  "name": "Lead Savr: A lead management and contact automation software",
+  "author": "Christopher Deo",
   "icons": [
     {
       "src": "favicon.ico",
