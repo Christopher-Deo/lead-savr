@@ -7,10 +7,9 @@ export type AmplifyDependentResourcesAttributes = {
     }
   },
   "auth": {
-    "leadsavr47d0c62947d0c629": {
+    "leadsavrf30779da": {
       "AppClientID": "string",
       "AppClientIDWeb": "string",
-      "CreatedSNSRole": "string",
       "IdentityPoolId": "string",
       "IdentityPoolName": "string",
       "UserPoolArn": "string",
@@ -18,17 +17,8 @@ export type AmplifyDependentResourcesAttributes = {
       "UserPoolName": "string"
     }
   },
-  "function": {
-    "leadsavr47d0c62947d0c629CustomMessage": {
-      "Arn": "string",
-      "LambdaExecutionRole": "string",
-      "LambdaExecutionRoleArn": "string",
-      "Name": "string",
-      "Region": "string"
-    }
-  },
   "storage": {
-    "s39d7d0244": {
+    "s300da8a81": {
       "BucketName": "string",
       "Region": "string"
     }

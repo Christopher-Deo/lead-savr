@@ -1,7 +1,6 @@
 {
-  "short_name": "Lead Savr",
-  "name": "Lead Savr: A lead management and contact automation software",
-  "author": "Christopher Deo",
+  "short_name": "LeadSavr",
+  "name": "LeadSavr, a contact management software",
   "icons": [
     {
       "src": "favicon.ico",

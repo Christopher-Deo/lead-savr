@@ -1,41 +1,25 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-leadsavr-dev-180717-authRole",
-      "UnauthRoleArn": "arn:aws:iam::548425607683:role/amplify-leadsavr-dev-180717-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::548425607683:role/amplify-leadsavr-dev-180717-authRole",
+      "AuthRoleName": "amplify-leadsavr-dev-205527-authRole",
+      "UnauthRoleArn": "arn:aws:iam::548425607683:role/amplify-leadsavr-dev-205527-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::548425607683:role/amplify-leadsavr-dev-205527-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-leadsavr-dev-180717-deployment",
-      "UnauthRoleName": "amplify-leadsavr-dev-180717-unauthRole",
-      "StackName": "amplify-leadsavr-dev-180717",
-      "StackId": "arn:aws:cloudformation:us-east-1:548425607683:stack/amplify-leadsavr-dev-180717/160343d0-8d56-11ed-aca2-0a2977c255a7",
-      "AmplifyAppId": "d286zj40wieudr",
-      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-leadsavr-dev-180717-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+      "DeploymentBucketName": "amplify-leadsavr-dev-205527-deployment",
+      "UnauthRoleName": "amplify-leadsavr-dev-205527-unauthRole",
+      "StackName": "amplify-leadsavr-dev-205527",
+      "StackId": "arn:aws:cloudformation:us-east-1:548425607683:stack/amplify-leadsavr-dev-205527/92928ff0-9224-11ed-a167-120638875349",
+      "AmplifyAppId": "d3mudqgefrd8qh"
     },
     "categories": {
       "auth": {
-        "leadsavr47d0c62947d0c629": {}
-      },
-      "function": {
-        "leadsavr47d0c62947d0c629CustomMessage": {
-          "REDIRECTURL": "localhost:3000",
-          "EMAILSUBJECT": "",
-          "EMAILMESSAGE": "",
-          "deploymentBucketName": "amplify-leadsavr-dev-180717-deployment",
-          "s3Key": "amplify-builds/leadsavr47d0c62947d0c629CustomMessage-6664656c446a58767746-build.zip"
-        }
+        "leadsavrf30779da": {}
       },
       "storage": {
-        "s39d7d0244": {}
+        "s300da8a81": {}
       },
       "api": {
         "leadsavr": {}
-      },
-      "hosting": {
-        "amplifyhosting": {
-          "appId": "d286zj40wieudr",
-          "type": "manual"
-        }
       }
     }
   }

@@ -18,40 +18,25 @@
     }
   },
   "auth": {
-    "leadsavr47d0c62947d0c629": {
+    "leadsavrf30779da": {
       "customAuth": false,
-      "dependsOn": [
-        {
-          "attributes": [
-            "Arn",
-            "Name"
-          ],
-          "category": "function",
-          "resourceName": "leadsavr47d0c62947d0c629CustomMessage",
-          "triggerProvider": "Cognito"
-        }
-      ],
+      "dependsOn": [],
       "frontendAuthConfig": {
         "mfaConfiguration": "OFF",
         "mfaTypes": [
           "SMS"
         ],
         "passwordProtectionSettings": {
-          "passwordPolicyCharacters": [
-            "REQUIRES_LOWERCASE",
-            "REQUIRES_UPPERCASE",
-            "REQUIRES_NUMBERS",
-            "REQUIRES_SYMBOLS"
-          ],
-          "passwordPolicyMinLength": "8"
+          "passwordPolicyCharacters": [],
+          "passwordPolicyMinLength": 8
         },
         "signupAttributes": [
-          "EMAIL",
-          "NAME",
-          "PHONE_NUMBER"
+          "EMAIL"
         ],
         "socialProviders": [],
-        "usernameAttributes": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
         "verificationMechanisms": [
           "EMAIL"
         ]
@@ -60,80 +45,8 @@
       "service": "Cognito"
     }
   },
-  "function": {
-    "leadsavr47d0c62947d0c629CustomMessage": {
-      "build": true,
-      "providerPlugin": "awscloudformation",
-      "service": "Lambda"
-    }
-  },
-  "hosting": {
-    "amplifyhosting": {
-      "providerPlugin": "awscloudformation",
-      "service": "amplifyhosting",
-      "type": "manual"
-    }
-  },
-  "parameters": {
-    "AMPLIFY_function_leadsavr47d0c62947d0c629CustomMessage_EMAILMESSAGE": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "leadsavr47d0c62947d0c629CustomMessage"
-        }
-      ]
-    },
-    "AMPLIFY_function_leadsavr47d0c62947d0c629CustomMessage_EMAILSUBJECT": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "leadsavr47d0c62947d0c629CustomMessage"
-        }
-      ]
-    },
-    "AMPLIFY_function_leadsavr47d0c62947d0c629CustomMessage_REDIRECTURL": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "leadsavr47d0c62947d0c629CustomMessage"
-        }
-      ]
-    },
-    "AMPLIFY_function_leadsavr47d0c62947d0c629CustomMessage_deploymentBucketName": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "leadsavr47d0c62947d0c629CustomMessage"
-        }
-      ]
-    },
-    "AMPLIFY_function_leadsavr47d0c62947d0c629CustomMessage_s3Key": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "leadsavr47d0c62947d0c629CustomMessage"
-        }
-      ]
-    },
-    "AMPLIFY_hosting_amplifyhosting_appId": {
-      "usedBy": [
-        {
-          "category": "hosting",
-          "resourceName": "amplifyhosting"
-        }
-      ]
-    },
-    "AMPLIFY_hosting_amplifyhosting_type": {
-      "usedBy": [
-        {
-          "category": "hosting",
-          "resourceName": "amplifyhosting"
-        }
-      ]
-    }
-  },
   "storage": {
-    "s39d7d0244": {
+    "s300da8a81": {
       "dependsOn": [],
       "providerPlugin": "awscloudformation",
       "service": "S3"
